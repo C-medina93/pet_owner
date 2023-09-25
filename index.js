@@ -1,5 +1,5 @@
 const pg = require('pg');
-const client = new pg.Client('postgres://localhost/fullstack_template_db');
+const client = new pg.Client('postgres://localhost/pet_owner_db');
 const express = require('express');
 const app = express();
 const path = require('path');
